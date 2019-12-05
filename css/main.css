@@ -1,0 +1,55 @@
+body {
+  background-color: #262615;
+  font-family: 'Asap', sans-serif;
+}
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  border-top: .05em solid #F2F2E5;
+  border-bottom: .05em solid #F2F2E5;
+}
+
+nav a {
+  color: #F2F2E5;
+  text-decoration: none;
+}
+
+.banner {
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.home-banner {
+  background-image: url("../images/banner.jpeg");
+  background-size: cover;
+  min-height: 30em;
+  background-position: center center;
+}
+
+h1 {
+  color: #262615;
+  font-family: 'Forum', cursive;
+}
+
+footer {
+  background-color: #262615;
+  color: #F2F2E5;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    width:250px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    width:300px;
+  }
+
+}
