@@ -1,6 +1,6 @@
 body {
   background-color: #262615;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 .logo {
@@ -8,12 +8,12 @@ body {
 }
 
 nav {
-  border-top: .05em solid #F2F2E5;
-  border-bottom: .05em solid #F2F2E5;
+  border-top: .05em solid #8d504f;
+  border-bottom: .05em solid #8d504f;
 }
 
 nav a {
-  color: #F2F2E5;
+  color: #f2f2e5;
   text-decoration: none;
 }
 
@@ -44,17 +44,21 @@ nav a {
 
 h1 {
   color: #262615;
-  font-family: 'Forum', cursive;
+  font-family: "Forum", cursive;
 }
 
 h2 {
-  color: #8D504F;
-  font-family: 'Forum', cursive;
+  color: #8d504f;
+  font-family: "Forum", cursive;
+}
+
+.body-p {
+  color: #f2f2e5;
 }
 
 footer {
   background-color: #262615;
-  color: #F2F2E5;
+  color: #f2f2e5;
 }
 
 .link-card {
@@ -62,10 +66,10 @@ footer {
   padding: 1em;
 
   background-color: #0D0000;
-  border: 1.5px solid #F2F2E5;
+  border: 1.5px solid #8d504f;
   border-radius: 8px;
 
-  color: #F2F2E5;
+  color: #f2f2e5;
   text-decoration: none;
 }
 
@@ -76,7 +80,7 @@ footer {
 @media only screen and (min-width: 25em) {
 
   .logo {
-    width:250px;
+    width: 250px;
   }
 
 }
@@ -84,7 +88,7 @@ footer {
 @media only screen and (min-width: 38em) {
 
   .logo {
-    width:300px;
+    width: 300px;
   }
 
 }
