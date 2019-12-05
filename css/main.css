@@ -28,14 +28,49 @@ nav a {
   background-position: center center;
 }
 
+.rescues-banner {
+  background-image: url("../images/rescues.jpeg");
+  background-size: cover;
+  min-height: 30em;
+  background-position: center center;
+}
+
+.donate-banner {
+  background-image: url("../images/donate.jpeg");
+  background-size: cover;
+  min-height: 30em;
+  background-position: center center;
+}
+
 h1 {
   color: #262615;
+  font-family: 'Forum', cursive;
+}
+
+h2 {
+  color: #8D504F;
   font-family: 'Forum', cursive;
 }
 
 footer {
   background-color: #262615;
   color: #F2F2E5;
+}
+
+.link-card {
+  display: block;
+  padding: 1em;
+
+  background-color: #0D0000;
+  border: 1.5px solid #F2F2E5;
+  border-radius: 8px;
+
+  color: #F2F2E5;
+  text-decoration: none;
+}
+
+.horse-image {
+  width: 200px;
 }
 
 @media only screen and (min-width: 25em) {
