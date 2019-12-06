@@ -1,6 +1,6 @@
 body {
   background-color: #262615;
-  font-family: "Asap", sans-serif;
+  font-family: Asap, sans-serif;
 }
 
 .logo {
@@ -8,13 +8,17 @@ body {
 }
 
 nav {
-  border-top: .05em solid #8d504f;
-  border-bottom: .05em solid #8d504f;
+  border-top: .1em solid #8d504f;
+  border-bottom: .1em solid #8d504f;
 }
 
 nav a {
   color: #f2f2e5;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #8d504f;
 }
 
 .banner {
@@ -44,12 +48,12 @@ nav a {
 
 h1 {
   color: #262615;
-  font-family: "Forum", cursive;
+  font-family: Forum, cursive;
 }
 
 h2 {
   color: #8d504f;
-  font-family: "Forum", cursive;
+  font-family: Forum, cursive;
 }
 
 .body-p {
@@ -83,7 +87,8 @@ footer {
   border-color: #f2f2e5;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-color: #f2f2e5;
   color: #262615;
   border-color: #262615;
