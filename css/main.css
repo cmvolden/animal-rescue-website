@@ -22,21 +22,21 @@ nav a {
 }
 
 .home-banner {
-  background-image: url("../images/banner.jpeg");
+  background-image: url("../images/banner.jpg");
   background-size: cover;
   min-height: 30em;
   background-position: center center;
 }
 
 .rescues-banner {
-  background-image: url("../images/rescues.jpeg");
+  background-image: url("../images/rescues.jpg");
   background-size: cover;
   min-height: 30em;
   background-position: center center;
 }
 
 .donate-banner {
-  background-image: url("../images/donate.jpeg");
+  background-image: url("../images/donate.jpg");
   background-size: cover;
   min-height: 30em;
   background-position: center center;
