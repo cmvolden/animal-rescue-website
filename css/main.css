@@ -65,7 +65,7 @@ footer {
   display: block;
   padding: 1em;
 
-  background-color: #0D0000;
+  background-color: #0d0000;
   border: 1.5px solid #8d504f;
   border-radius: 8px;
 
@@ -75,6 +75,18 @@ footer {
 
 .horse-image {
   width: 200px;
+}
+
+.btn {
+  background-color: #262615;
+  color: #f2f2e5;
+  border-color: #f2f2e5;
+}
+
+.btn:hover {
+  background-color: #f2f2e5;
+  color: #262615;
+  border-color: #262615;
 }
 
 @media only screen and (min-width: 25em) {
