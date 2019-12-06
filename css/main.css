@@ -61,7 +61,7 @@ h2 {
 }
 
 footer {
-  background-color: #262615;
+  background-color: #0d0000;
   color: #f2f2e5;
 }
 
@@ -92,6 +92,14 @@ footer {
   background-color: #f2f2e5;
   color: #262615;
   border-color: #262615;
+}
+
+legend {
+  color: #8d504f;
+}
+
+label {
+  color: #f2f2e5;
 }
 
 @media only screen and (min-width: 25em) {
