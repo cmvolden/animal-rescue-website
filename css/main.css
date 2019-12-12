@@ -57,7 +57,7 @@ h2 {
 }
 
 .body-p {
-  color: #727366;
+  color: #262615;
 }
 
 footer {
@@ -99,7 +99,7 @@ legend {
 }
 
 label {
-  color: #f2f2e5;
+  color: #262615;
 }
 
 .skip-links a {
@@ -109,6 +109,14 @@ label {
 
 .skip-links a:focus {
   top: 0;
+}
+
+.adopt-whitebg {
+  background-color: #f2f2e5;
+}
+
+.darkbg {
+  background-color: #262615;
 }
 
 
