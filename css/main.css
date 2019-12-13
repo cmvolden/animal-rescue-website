@@ -17,7 +17,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+nav li:hover {
+  background-color: #8d504f;
+}
+
+.active {
   background-color: #8d504f;
 }
 
