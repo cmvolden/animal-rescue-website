@@ -60,6 +60,10 @@ h2 {
   color: #262615;
 }
 
+.light-p {
+  color: #f2f2e5;
+}
+
 footer {
   background-color: #0d0000;
   color: #f2f2e5;
@@ -79,6 +83,11 @@ footer {
 
 .horse-image {
   width: 100%;
+}
+
+.main-icons {
+  width: 100%;
+  max-width: 100px;
 }
 
 .btn {
