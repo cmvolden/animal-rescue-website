@@ -102,6 +102,10 @@ label {
   color: #262615;
 }
 
+fieldset {
+  border: none;
+}
+
 .skip-links a {
   position: absolute;
   top: -3em;
