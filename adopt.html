@@ -27,7 +27,7 @@
         <ul class="list-group-inline push-0">
           <li class="island-1-4"><a href="index.html">Home</a></li>
           <li class="island-1-4"><a href="rescues.html">Rescues</a></li>
-          <li class="island-1-4"><a href="adopt.html">Donate</a></li>
+          <li class="island-1-4"><a href="adopt.html">Adopt</a></li>
         </ul>
       </nav>
     </div>
@@ -41,15 +41,16 @@
   </header>
 
   <main id="main" role="main">
-    <section>
-      <article class="body-p kilo gutter">
+    <section class="gutter">
+      <article class="body-p kilo">
         <p>When you donate, every penny goes to the horses for feed, hay, medical care and other necessities. There will be no tomorrow for many unwanted horses, however with your help we can save many that otherwise would perish.</p>
         <p>We are a group of horse lovers, determined to make a difference for as many horses as possible. Sometimes the task seems insurmountable but we are inspired and exhilarated when we touch, hear, and see the horses that contentedly munch in their safe environment.</p>
+
       </article>
-
-
-      <fieldset class="gutter">
-        <legend class="giga island-1-4">Personal details</legend>
+      <hr>
+      <h1 class="center-text">Adopt</h1>
+      <fieldset>
+        <legend class="giga">Personal details</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2">
             <label for="name">First Name</label>
@@ -82,7 +83,7 @@
         </div>
       </fieldset>
 
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Address</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2">
@@ -119,7 +120,7 @@
         </div>
       </fieldset>
 
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Which horse are you interested in most?</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2">
@@ -157,7 +158,7 @@
         </div>
       </fieldset>
 
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Do you have any experience with horse ownership?</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2">
@@ -195,41 +196,47 @@
         </div>
       </fieldset>
 
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Do you have any other horses?</legend>
         <div>
-          <input type="radio" id="yes" name="license">
+          <input type="radio" id="yes" name="otherhorse">
           <label for="yes">Yes</label>
         </div>
         <div>
-          <input type="radio" id="no" name="license">
+          <input type="radio" id="no" name="otherhorse">
           <label for="no">No</label>
         </div>
       </fieldset>
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Do you have a horse trailer?</legend>
         <div>
-          <input type="radio" id="yes-truck" name="pickup">
-          <label for="yes-truck">Yes</label>
+          <input type="radio" id="yes-trailer" name="trailer">
+          <label for="yes-trailer">Yes</label>
         </div>
         <div>
-          <input type="radio" id="no-truck" name="pickup">
-          <label for="no-truck">No</label>
+          <input type="radio" id="no-trailer" name="trailer">
+          <label for="no-trailer">No</label>
         </div>
       </fieldset>
-      <fieldset class="gutter">
+      <fieldset>
         <legend class="giga">Do you have a Veterinarian?</legend>
         <div>
-          <input type="radio" id="yes-aid" name="firstaid">
-          <label for="yes-aid">Yes</label>
+          <input type="radio" id="yes-vet" name="veterinarian">
+          <label for="yes-vet">Yes</label>
         </div>
         <div>
-          <input type="radio" id="no-aid" name="firstaid">
-          <label for="no-aid">No</label>
+          <input type="radio" id="no-vet" name="veterinarian">
+          <label for="no-vet">No</label>
         </div>
       </fieldset>
 
-      <button class="btn push gutter" type="submit">Submit</button>
+      <fieldset>
+        <legend class="giga">Please let us know any comments or questions you may have. (optional)</legend>
+        <label for="comments">Comments/Questions</label>
+        <textarea id="comments" name="message" required></textarea>
+      </fieldset>
+
+      <button class="btn push" type="submit">Submit</button>
     </section>
   </main>
 
