@@ -87,6 +87,12 @@ footer {
 
 .horse-image {
   width: 100%;
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.horse-image:hover {
+  filter: grayscale(0);
 }
 
 .main-icons {
