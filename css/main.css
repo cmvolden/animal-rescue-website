@@ -104,6 +104,7 @@ footer {
   background-color: #262615;
   color: #f2f2e5;
   border-color: #f2f2e5;
+  border-radius: 50px;
 }
 
 .btn:hover,
@@ -140,6 +141,18 @@ fieldset {
 
 .darkbg {
   background-color: #262615;
+}
+
+.form-width {
+  max-width: 30em;
+}
+
+input,
+select,
+label,
+textarea {
+  border: none;
+  color: #727366;
 }
 
 @media only screen and (min-width: 25em) {
